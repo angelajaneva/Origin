@@ -1,0 +1,16 @@
+$ cd lab
+$ git init
+$ git add l1.txt
+$ git commit -a -m "Initial commit"
+$ git commit -a -m "modify l1.txt"
+$ git clone https://github.com/angelajaneva/Origin.git
+$ git remote add origin https://github.com/angelajaneva/Origin.git
+$ git push origin master
+$ git commit -a -m "Edit"
+$ git reset --hard HEAD^
+$ git checkout -b logging
+$ git add log.txt
+$ git commit -m "Exit of log"
+$ git push origin logging
+$ git merge logging
+$ git checkout -b allcomands
